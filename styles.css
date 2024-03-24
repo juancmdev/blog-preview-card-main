@@ -13,11 +13,16 @@ body {
 img {
   display: block;
   margin: 24px auto;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 #published {
   font-size: 14px;
   font-weight: 400;
+  margin-top: 12px;
 }
 #description {
   margin: 12px 0 0 0;
@@ -54,6 +59,17 @@ h1 {
 
 .container-card:hover {
   box-shadow: 15px 15px 0px black;
+  cursor: pointer;
+  caret-color: black;
+  h1 {
+    color: #f4d04e;
+  }
+}
+
+.container-img {
+  width: 336px;
+  height: 200px;
+  margin: 24px auto;
 }
 
 .content {
@@ -69,7 +85,7 @@ h1 {
   border-radius: 4px;
   border: none;
   font-family: "Figtree", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
   outline: none;
 }
 
@@ -103,4 +119,71 @@ h1 {
 .attribution a {
   text-decoration: none;
   color: red;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 720px;
+    height: 1250px;
+  }
+
+  img {
+    width: 279px;
+    height: 200px;
+  }
+
+  .container-card {
+    width: 327px;
+    height: 501px;
+  }
+
+  .container-card:hover {
+    box-shadow: 10px 10px 0px black;
+  }
+
+  .content {
+    width: 279px;
+    height: 173px;
+    margin: 24px auto;
+  }
+
+  .attribution {
+    width: 100%;
+    margin-top: 7px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+    height: 812px;
+  }
+
+  img {
+    max-width: 100%;
+    width: 279px;
+    height: 200px;
+  }
+
+  .container-card {
+    width: 327px;
+    height: 501px;
+  }
+
+  .container-card:hover {
+    box-shadow: 7px 7px 0px black;
+  }
+
+  .content {
+    width: 279px;
+    height: 173px;
+    margin: 24px auto;
+  }
+
+  .attribution {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 13px;
+  }
 }

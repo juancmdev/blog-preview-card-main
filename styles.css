@@ -8,7 +8,6 @@ body {
   font-size: 20px;
   font-weight: 800;
   font-family: "Figtree", sans-serif;
-  min-height: 100vh;
 }
 
 img {
@@ -41,14 +40,14 @@ h1 {
 }
 
 .container {
-  width: 1440px;
-  height: 960px;
+  overflow: hidden;
+  min-height: 100vh;
   background-color: #f4d04e;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .container-card {
@@ -62,7 +61,6 @@ h1 {
 
 .container-card:hover {
   cursor: pointer;
-  caret-color: black;
   h1 {
     color: #f4d04e;
   }
@@ -110,11 +108,11 @@ h1 {
 
 .attribution {
   width: 50%;
-  margin: 0 auto;
+  margin: 28px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  font-size: 13px;
 }
 
 .attribution a {
@@ -136,9 +134,6 @@ h1 {
   .container-card {
     width: 327px;
     height: 501px;
-  }
-
-  .container-card:hover {
     box-shadow: 10px 10px 0px black;
   }
 
@@ -187,7 +182,7 @@ h1 {
     height: 501px;
   }
 
-  .container-card:hover {
+  .container-card {
     box-shadow: 7px 7px 0px black;
   }
 

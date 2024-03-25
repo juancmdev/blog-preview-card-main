@@ -67,9 +67,8 @@ h1 {
 }
 
 .container-img {
-  width: 336px;
   height: 200px;
-  margin: 24px auto;
+  margin: 24px 24px;
 }
 
 .content {
@@ -92,7 +91,7 @@ h1 {
 .avatar {
   display: flex;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 30px;
 }
 
 .avatar .avatar-img {
@@ -147,6 +146,18 @@ h1 {
     margin: 24px auto;
   }
 
+  #published {
+    font-size: 12px;
+  }
+
+  #description {
+    font-size: 13px;
+  }
+
+  .avatar {
+    margin-top: 25px;
+  }
+
   .attribution {
     width: 100%;
     margin-top: 7px;
@@ -155,6 +166,9 @@ h1 {
 }
 
 @media screen and (max-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
   .container {
     width: 375px;
     height: 812px;
@@ -179,6 +193,18 @@ h1 {
     width: 279px;
     height: 173px;
     margin: 24px auto;
+  }
+
+  #published {
+    font-size: 12px;
+  }
+
+  #description {
+    font-size: 12px;
+  }
+
+  .avatar {
+    margin-top: 20px;
   }
 
   .attribution {

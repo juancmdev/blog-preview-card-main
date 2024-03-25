@@ -45,7 +45,6 @@ h1 {
   background-color: #f4d04e;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -118,6 +117,10 @@ h1 {
 .attribution a {
   text-decoration: none;
   color: red;
+}
+
+.visible {
+  display: none;
 }
 
 @media screen and (max-width: 720px) {

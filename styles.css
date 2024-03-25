@@ -56,7 +56,7 @@ h1 {
   background-color: #ffffff;
   border-radius: 20px;
   border: 1px solid black;
-  box-shadow: 15px 15px 0px black;
+  box-shadow: 10px 10px 0px black;
 }
 
 .container-card:hover {
@@ -134,7 +134,7 @@ h1 {
   .container-card {
     width: 327px;
     height: 501px;
-    box-shadow: 10px 10px 0px black;
+    box-shadow: 9px 9px 0px black;
   }
 
   .content {

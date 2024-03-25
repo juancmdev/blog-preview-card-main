@@ -8,6 +8,7 @@ body {
   font-size: 20px;
   font-weight: 800;
   font-family: "Figtree", sans-serif;
+  min-height: 100vh;
 }
 
 img {
@@ -55,10 +56,10 @@ h1 {
   background-color: #ffffff;
   border-radius: 20px;
   border: 1px solid black;
+  box-shadow: 15px 15px 0px black;
 }
 
 .container-card:hover {
-  box-shadow: 15px 15px 0px black;
   cursor: pointer;
   caret-color: black;
   h1 {
